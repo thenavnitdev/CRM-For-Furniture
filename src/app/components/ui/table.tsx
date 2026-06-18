@@ -77,7 +77,7 @@ function TableHead({ className, ...props }: React.ComponentProps<"th">) {
     />
   );
 }
-
+// The `TableCell` component is used for regular table cells (td) and has similar styling to `TableHead` but is meant for body cells.
 function TableCell({ className, ...props }: React.ComponentProps<"td">) {
   return (
     <td
